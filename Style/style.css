@@ -210,3 +210,43 @@ main .screen-size{
 
     margin: 13px 0;
 }
+
+/* Hot deals section */
+.hot-deals{
+
+    background: rgba(229, 84, 115, 0.05);
+    height: 550px;
+    margin-top: 120px ;
+
+    
+}
+
+.hot-deals-text{
+    text-align: center;
+    color: #272727;
+    
+    font-size: 25px;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.hot-deals-title > span{
+    color: #E55473;
+    
+    font-size: 40px;
+    
+    font-weight: 800;
+    
+
+}
+
+.hot-deals-container{
+
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    align-items: center;
+    padding: 80px 0;
+
+}
