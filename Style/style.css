@@ -250,3 +250,17 @@ main .screen-size{
     padding: 80px 0;
 
 }
+
+/* This for Instagram Section */
+
+.instagram-image img{
+
+    width: 230px;
+    height: auto;
+    margin: 10px;
+}
+
+.latestdeal-container{
+
+    background-image: url("./Flowe");
+}
