@@ -11,6 +11,8 @@ body{
     
 }
 /* This is header section */
+
+
 header{
 
     background: rgba(229, 84, 115, 0.10);
@@ -28,7 +30,7 @@ header{
 .banner-container img{
 
     width: auto;
-    height: 600px;
+    height: 630px;
 
 
 }
@@ -407,4 +409,62 @@ footer{
     color: #fff;
 
 }
+/* This is nav mar section */
 
+/* nav{
+
+    width: 1060px;
+} */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.logo-img{
+
+    width: 150px;
+    height: auto;
+}
+.primary-color{
+
+    color: #FD6E0A;
+
+}
+.nav-container ul {
+    display: flex;
+    align-items: center ;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+    
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: #474747;
+    padding: 8px;
+
+}
+
+.primary-btn-color{
+
+    width: 140px;
+    height: 52px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 5px;
+    background: #E55473;
+    color: white;
+    border: none;
+    padding: 13px 31px;;
+}
+
+nav ul li :hover{
+
+    background-color: #090979;
+    color: #fff;
+}
