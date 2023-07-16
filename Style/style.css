@@ -253,14 +253,49 @@ main .screen-size{
 
 /* This for Instagram Section */
 
+
 .instagram-image img{
 
+    margin: 0 11px 0 19px;
+    
+    
     width: 230px;
     height: auto;
-    margin: 10px;
+    
 }
 
 .latestdeal-container{
+    
+    height: 445px;
 
-    background-image: url("./Flowe");
+    
+
+    background: url('../Flower Asset/Rectangle 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+
+.latest-deal-text{
+
+    
+   
+    padding-top: 100px;
+
+}
+
+.latest-deal-form{
+
+    margin: 100px auto 0 200px;
+}
+
+.latest-deal-form input{
+    width: 550px;
+    height: 58px;
+    border: none;
+    margin-right: 15px;
+    border-radius: 5px;
+   
+
+}
+.latest-deal-form input::placeholder{
+
+    padding-left: 15px;
 }
